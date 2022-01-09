@@ -50,4 +50,4 @@ There are two files to configure:
 This is a serverless stack and running it is almost entirely within the Always Free tier.
 The only part that will definitely cost you money is the caching used in the Lambda function. At the time of this writing it would cost you about $0.05/12 = $0.004 per each 5 minute interval within which you call the function.
 
-To make it completely free (as long as you're also otherwise remain within Always Free usage limits) comment out the deploy_options defined within the SaveSpotifyDataCdkStack in ```./lambda_save_spotify_data/config/artists.csv```. This will switch off the caching.
+To make it completely free (as long as you're also otherwise remain within Always Free usage limits) comment out the deploy_options defined within the SaveSpotifyDataCdkStack in ```./save_spotify_data_cdk/save_spotify_data_cdk_stack.py```. This will switch off the caching.
