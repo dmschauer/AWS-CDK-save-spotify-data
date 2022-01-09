@@ -27,3 +27,6 @@ cdk.out/
 # only keep "template" settings
 settings/*
 !settings/*_template.*
+
+# propietary
+images/save-spotify-data-CDK.pptx
